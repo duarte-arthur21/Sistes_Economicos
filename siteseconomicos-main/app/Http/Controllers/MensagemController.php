@@ -1,17 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\User;
-
-
+use App\Models\Msgs;
 use Illuminate\Http\Request;
 
 class MensagemController extends Controller
 {
     public function index()
     {
-        $users = User::all();
-        return view('listUsers', ["users" => $users]);
+        $msgs = Msgs::all();
+
+        return view('listMsg', ["msgs" => $msgs]);
     }
    
     public function create()

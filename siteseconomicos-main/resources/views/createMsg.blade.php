@@ -12,23 +12,20 @@
 
 @section('content')
 
-    <div class="form-group">
-        <div class="input-icon">
-            <span class="input-icon-addon">
-                <i class="fa fa-user"></i>
-            </span>
-            <input type="text" class="form-control" placeholder="Nome">
-        </div>
-    </div>
-
-    <div class="form-group form-floating-label">
-        <input id="inputFloatingLabel2" type="text" class="form-control input-solid" required="">
-        <label for="inputFloatingLabel2" class="placeholder">Assunto</label>
-    </div>
-
-    <textarea  class="form-group form-group-default">
-        <label>Input</label>
-        <input id="Name" type="text" class="form-control" placeholder="Fill Name">
-    </textarea>  
+    <form>
+          <div class="form-group">
+                <input class="form-control col-sm-6" type="text" placeholder="Nome*">
+          </div>
+          <div class="form-group">          
+                <input class="form-control col-sm-6" type="text" placeholder="E-mail*">
+            </div>
+          <div class="form-group">
+                <input class="form-control col-sm-6" type="text" placeholder="Assunto*">
+          </div>
+          <div class="form-group">
+                <textarea class="form-control" name="" id="" cols="5" rows="10">
+          </textarea>
+          </div>        
+    </form>
 
 @endsection
