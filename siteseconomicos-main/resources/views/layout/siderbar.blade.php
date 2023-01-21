@@ -102,7 +102,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="{{ route('listMsg') }}">
+										<a href="listMsg">
 											<span class="sub-item">Listar Mensagens</span>
 										</a>
 									</li>

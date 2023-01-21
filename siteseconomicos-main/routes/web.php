@@ -17,8 +17,9 @@ Route::post('/listUsers/update', [ListUserController::class, 'update'])->name('l
 Route::post('/listUsers/destroy', [ListUserController::class, 'destroy'])->name('listUsers.destroy');
 
 
-Route::get('/mensagem', [MensagemController::class, 'index'])->name('listMsg');
-//Route::get('/mensagem', [MensagemController::class, 'index']);
+Route::get('/listMsg', [MensagemController::class, 'index'])->name('listMsg');
+
+//Route::get('/listMsg', [MensagemController::class, 'index']);
 
 Route::get('/mensagem/create', [MensagemController::class, 'create']);
 
