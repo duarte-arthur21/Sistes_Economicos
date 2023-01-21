@@ -86,6 +86,30 @@
 								</ul>
 							</div>
 						</li>
+						
+						<!--Nav item Mensagens de Contato-->
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#forms">
+								<i class="fas fa-pen-square"></i>
+								<p>Mensagens</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="forms">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="forms/forms.html">
+											<span class="sub-item">Escrever Mensagem</span>
+										</a>
+									</li>
+									<li>
+										<a href="{{ route('listMsg') }}">
+											<span class="sub-item">Listar Mensagens</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
 						<li class="nav-item">
 							<a data-toggle="collapse" href="#sidebarLayouts">
 								<i class="fas fa-th-list"></i>
@@ -122,22 +146,7 @@
 								</ul>
 							</div>
 						</li>
-						<li class="nav-item">
-							<a data-toggle="collapse" href="#forms">
-								<i class="fas fa-pen-square"></i>
-								<p>Forms</p>
-								<span class="caret"></span>
-							</a>
-							<div class="collapse" id="forms">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="forms/forms.html">
-											<span class="sub-item">Basic Form</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</li>
+
 						<li class="nav-item">
 							<a data-toggle="collapse" href="#tables">
 								<i class="fas fa-table"></i>
